@@ -1,3 +1,73 @@
+/* RESET STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* GENERAL STYLES */
+
 body {
     background-color: black;
+    color: seashell;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+
+/* HEADER STYLES */
+
+header {
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+nav a {
+    color: seashell;
+    margin-left: 35px;
+}
+
+
+/* SECTION:MISSION STYLES */
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./img/img-mission-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.mission-info {
+    width: 1200px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
 }
