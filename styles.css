@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
     border-bottom: 1px solid seashell;
     z-index: 10;
 }
@@ -46,6 +47,10 @@ nav ul{
 nav a {
     color: seashell;
     margin-left: 35px;
+}
+
+nav a:hover {
+    color: chocolate;
 }
 
 
@@ -70,4 +75,38 @@ nav a {
     background-color: black;
     text-align: center;
     padding: 10px;
+}
+
+
+/* SECTION: FEATURED STYLES */
+
+#featured {
+    position: relative;
+    margin: 200px;
+    text-align: center;
+    width: 1000px;
+}
+
+.featured-info {
+    margin-bottom: 20px;
+}
+
+.featured-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-item {
+    margin: 15px;
+}
+
+.featured-item img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-item h4{
+    margin-top: 10px;
 }
