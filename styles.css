@@ -118,7 +118,7 @@ nav a:hover {
     height: 500px;
     width: 1200px;
     background-image: url(./img/img-locations-background.jpeg);
-    background-position: center;
+    background-position: center -30px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -143,4 +143,29 @@ nav a:hover {
     width: 300px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-info {
+    height: 200px;
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-info h2{
+    margin-bottom: 20px;
+}
+
+.footer-rights {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
 }
