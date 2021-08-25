@@ -110,3 +110,37 @@ nav a:hover {
 .featured-item h4{
     margin-top: 10px;
 }
+
+
+/* SECTION:MISSION STYLES */
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url(./img/img-locations-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.locations-container {
+    display: inline-flex;
+}
+
+.locations-info {
+    margin-bottom: 15px;
+}
+
+.locations-item {
+    background-color: black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
